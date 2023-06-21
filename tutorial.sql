@@ -18,7 +18,6 @@ CREATE Table Kaufhistorie (
     Anzahl int
 );
 
-
 /*markdown
 # Prüfen des bisherigen Ergebnisses
 */
@@ -46,3 +45,23 @@ ALTER COLUMN Preis DECIMAL(10,2)
 UPDATE Produkte
 SET Preis = 1.99
 WHERE Name = 'Milch'
+
+/*markdown
+# Verändern der Produkte und Kaufhistorie Tabelle
+Die Produkte Tabelle erhält einen Primärschlüssel und die Kaufhistorie einen Fremdschlüssel zur Produkte Tabelle
+
+*/
+
+/*markdown
+# Prüfen, obs erfolgreich war
+*/
+
+/*markdown
+# Anlegen geeigneter Datensätze
+
+*/
+
+/*markdown
+# Prüfen, obs erfolgreich war
+
+*/
